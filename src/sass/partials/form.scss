@@ -1,0 +1,18 @@
+.form-group input{
+    border: none;
+    border-radius: 7px;
+    padding: 1.3em;
+
+    &::placeholder {
+        color: $support-color;
+        opacity: 0.8;
+        font-family: $font-primary;
+        font-size: $text;
+      }
+}
+
+.btn {
+    padding: 0.375rem 2em !important;
+    font-family: $font-secondary;
+    font-size: 18px;
+}

@@ -1,0 +1,18 @@
+.card-title{
+    color: $primary-color;
+    font-family: $font-primary;
+    font-size: $header-2;
+}
+
+.card-text{
+    color: $support-color;
+    font-family: $font-primary;
+    font-size: $text;
+}
+
+.card{
+    margin-bottom: 2em;
+    box-shadow: $box-shadow-primary;
+    border-radius: 25px;
+    border: none !important;
+}

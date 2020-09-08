@@ -1,0 +1,22 @@
+// Custom colors 
+
+$primary-color: #065CA7;
+$secondary-color: #707070;
+$support-color: #919191;
+$background-color: #F4F4F4;
+$text-color: white;
+
+// theme colors from bootstrap
+
+$theme-colors: (
+    "primary": $primary-color,
+    "dark": $primary-color,
+);
+
+// Box shadow 
+
+$box-shadow-primary: 0 6px 12px rgba(0, 0, 0, 0.05);
+
+// border radius
+
+$card-border-radius: 10px;

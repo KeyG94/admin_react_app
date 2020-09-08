@@ -1,0 +1,53 @@
+.tabs_accordion, .accordion{
+    box-shadow: $box-shadow-primary;
+    margin-bottom: 2em;
+}
+
+.tabs_accordion{
+    border-radius: 15px;
+    padding: none !important;
+}
+
+.tabs_accordion, .accordion{
+    background-color: white;
+}
+
+.tabs__header{
+    border: none !important;
+    padding: none !important;
+    background-color: white !important;
+}
+
+.nav {
+    flex-wrap: nowrap !important;
+}
+
+.nav-tabs{
+    border-bottom: none;
+    background-color: $background-color;
+}
+
+.nav-tabs a{
+    font-family: $font-primary;
+    color: $primary-color;
+}
+
+.tab-content{
+    margin: 1.5em auto;
+    color: $support-color;
+}
+
+.tabs_accordion .card{
+    box-shadow: none;
+}
+
+
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link{
+    border: none;
+    border-radius: 0 15px 0 0;
+}
+
+.tabs__content{
+    background-color: $background-color;
+}

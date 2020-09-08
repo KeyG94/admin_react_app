@@ -1,10 +1,14 @@
-import React from 'react'
+import React from 'react';
+import Navbar from 'react-bootstrap/Navbar';
+
 
 function Header() {
     return (
-        <div>
-            <h1>Admin</h1>
-        </div>
+        <>
+             <Navbar bg="primary" variant="dark" col="12" className="navbar-box">
+                <Navbar.Brand href="#home">Admin</Navbar.Brand>
+            </Navbar>
+        </>
     )
 }
 

@@ -17,8 +17,8 @@ function FormSubmit() {
                 <Form.Group controlId="formBasicEmail">
                 <Form.Control type="email" placeholder="Email" />
                 </Form.Group>
-                <Button variant="primary" type="submit">
-                    Submit
+                <Button variant="secondary" type="submit">
+                    Send
                 </Button>
             </Form>
         </>

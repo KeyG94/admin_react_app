@@ -1,0 +1,17 @@
+.table-responsive{
+    font-family: $font-primary;
+    font-size: $link;
+    margin-bottom: 2em;
+    
+    &th,td{
+        color: $secondary-color;
+
+        &:hover{
+            color: black;
+        }
+    }
+
+    &:hover{
+        cursor: pointer;
+    }
+}

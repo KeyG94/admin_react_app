@@ -1,0 +1,9 @@
+.navbar-box{
+    margin-bottom: 2em;
+
+    & a.navbar-brand{
+        font-size: 36px;
+        margin: 0 22px;
+        font-family: $font-primary;
+    }
+}
